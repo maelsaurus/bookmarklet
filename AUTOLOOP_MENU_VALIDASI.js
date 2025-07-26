@@ -23,14 +23,4 @@ function j(){
   setTimeout(()=>{
     e('//*[@id="keterangan"]',"OK"),
     setTimeout(()=>{
-      d('//a[@class="waves-effect waves-light btn btn-small green accent-4 approval" and @key="1"]'),
-      setTimeout(()=>{
-        d('//*[@id="submit_form"]'),
-        setTimeout(()=>{
-          c(g,()=>{setTimeout(j,1500)})
-        },800)
-      },600)
-    },600)
-  },800)
-}
-c(g,()=>{setTimeout(j,1500)})
+      d('//a[@class="waves-effect waves-light btn btn-small green accent-4 
