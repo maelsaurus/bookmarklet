@@ -97,5 +97,4 @@
     klikMenu(targetMenuAlt, () => {
         setTimeout(jalankanProses, 1500); // Mulai loop setelah menu awal terbuka
     });
-
 })();
